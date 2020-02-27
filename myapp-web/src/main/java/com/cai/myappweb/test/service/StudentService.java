@@ -12,5 +12,6 @@ import java.util.List;
  */
 
 public interface StudentService {
-    public Student get(Long id);
+    Student get(Long id);
+    Integer insert(Student s);
 }
